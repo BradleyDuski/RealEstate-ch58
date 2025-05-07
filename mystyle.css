@@ -61,6 +61,33 @@ margin-left: auto;
 margin-right: auto;
 width:80%;
 }
+@media(max-width:768px){
+    .div1{flex-direction: column;}
+}
+
+@media(max-width:768){h2,h3,h4{
+    text-align:center;
+}
+}
+@media(max-width:768px){
+    .div2{ 
+    width:95%;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+}
+
+@media(max-width:768px){
+    .houses-container{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
 .div2{margin-left: auto;
 margin-right: auto;
 width:80%;
@@ -86,6 +113,15 @@ width:80%;
 }
 
 .houses-item{background-color: lightgray;}
+
+@media(max-width:768px){
+    .header1{
+        flex-direction: column;
+        margin-bottom: 3rem;
+    }
+}
+
+
 
 /*footer*/
 
